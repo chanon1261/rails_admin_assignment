@@ -34,12 +34,4 @@ class User < ApplicationRecord
   	end
   end
 
-  RailsAdmin.config do |config|
-    config.model 'organization' do
-      show do
-        field :name
-      end
-    end
-  end
-
 end
